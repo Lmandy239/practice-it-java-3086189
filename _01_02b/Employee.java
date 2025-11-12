@@ -25,7 +25,7 @@ public class Employee {
     int overtimePayment = 40;
     // Create a variable called totalPayment of type int and assign it to the value
     // of baseSalary added to overtimePayment.
-    int totalPayment = baseSalary;
+    int totalPayment = baseSalary + overtimePayment;
     // Print the totalPayment variable to the console.
     System.out.println(totalPayment);
     // Create three variables all of type double on a single line.
